@@ -1,0 +1,242 @@
+/*---------- FONT ----------*/
+
+/*GOTHAM BOOK*/
+
+@font-face {
+    font-family: "GothamBook";
+    src: url("/fonts/gothamBook.woff2") format("woff2"),
+    url("/fonts/gothamBook.woff") format("woff");
+}
+
+/*GOTHAM BOLD*/
+
+@font-face {
+    font-family: "GothamBold";
+    src: url("/fonts/gothamBold.woff2") format("woff2"),
+    url("/fonts/gothamBold.woff") format("woff");
+}
+
+/*DIDOT*/
+
+@font-face {
+    font-family: "Didot";
+    src: url("/fonts/didot.woff2") format("woff2"),
+    url("/fonts/didot.woff") format("woff");
+}
+
+/*DIDOT BOLD*/
+
+@font-face {
+    font-family: "DidotBold";
+    src: url("/fonts/didotBold.woff2") format("woff2"),
+    url("/fonts/didotBold.woff") format("woff");
+}
+
+/*---------- GENERAL ----------*/
+
+Body {
+    position: relative;
+    height: 100vh;
+    width: 100wh;
+    font-family: "GothamBook";
+    background: #fefefe;
+
+
+}
+
+a {
+
+    list-style: none;
+    color: black;
+}
+
+b {
+
+    font-family: "GothamBold"
+}
+
+p {
+
+    font-size: 0.8rem;
+}
+
+span {
+
+    display: block;
+}
+
+/*---------- HOME ----------*/
+
+/*BTN MENU*/
+
+.btnBurgur {
+
+    width: 50px;
+    height: 50px;
+    margin-top: 19px;
+    z-index: 99;
+}
+
+.burger1 {
+    position: absolute;
+    background: #343434;
+    height: 1px;
+    width: 15px;
+    top: 20px;
+    left: 20px;
+}
+
+.burger2 {
+    position: absolute;
+    background: #343434;
+    height: 1px;
+    width: 25px;
+    top: 25px;
+    left: 20px;
+}
+
+.burger3 {
+    position: absolute;
+    background: #343434;
+    height: 1px;
+    width: 20px;
+    top: 30px;
+    left: 20px;
+}
+
+/*---------- MENU ----------*/
+
+.menu {
+
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 0;
+    background: #fefefe;
+    z-index: 2;
+}
+
+.menu ul {
+
+    margin-top: 150px;
+    padding: 0;
+}
+
+.menu ul li {
+
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu ul li a {
+
+    list-style: none;
+    font-family: "DidotBold";
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+/*---------- HOME ----------*/
+
+.home{
+    
+    overflow: hidden;
+}
+
+.logo {
+
+    height: 310px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+}
+
+.txtHome {
+
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*---------- ABOUT ----------*/
+
+.about {
+
+    overflow: hidden;
+}
+
+.citation {
+
+    font-family: "didotBold";
+    width: 100%;
+    margin-left: 60%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.4rem;
+
+}
+
+.auteur {
+
+    font-family: "gothamBold";
+    opacity: 0.5;
+    margin: 0;
+    margin-left: 30px;
+
+
+}
+
+.txtAbout {
+
+    margin: auto;
+    text-align: center;
+    width: 450px;
+    font-size: 1rem;
+    margin-top: 30px;
+
+}
+
+.competences {
+
+    display: flex;
+    font-family: "gothamBold";
+    margin-left: 10%;
+
+}
+
+
+.competences ul {
+
+    text-align: center;
+
+}
+
+.competences ul li {
+
+    font-family: "gotham";
+    margin-top: 10px;
+    margin-left: 10px;
+    list-style: none;
+    font-size: 8px;
+    opacity: 0.5;
+
+}
+
+.competences ul li span {
+
+    font-size: 15px;
+    opacity: 1;
+
+}
+
+
+.lowPoly {
+
+    width: 200px;
+    margin-left: 30%;
+
+
+
+}
