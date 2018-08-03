@@ -44,6 +44,11 @@ Body {
 
 }
 
+main{
+    
+    width: 100vh;
+}
+
 a {
 
     list-style: none;
@@ -169,9 +174,9 @@ span {
 .citation {
 
     font-family: "didotBold";
-    width: 100%;
-    margin-left: 60%;
-    transform: translateX(-50%);
+    width: 370px;
+    margin: 0 auto;
+    display: block;
     text-align: center;
     margin-top: 30px;
     font-size: 1.4rem;
