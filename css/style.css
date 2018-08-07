@@ -45,7 +45,6 @@ Body {
     width: 100%;
     color: #343434;
     font-family: "gothamBook"
-
 }
 
 main {}
@@ -99,7 +98,7 @@ li {
     height: 1px;
     width: 15px;
     background: #343434;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 
 }
 
@@ -109,7 +108,7 @@ li {
     height: 1px;
     width: 20px;
     background: #343434;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 
 }
 
@@ -119,7 +118,7 @@ li {
     height: 1px;
     width: 10px;
     background: #343434;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 
 }
 
@@ -165,7 +164,6 @@ li {
 
 /* ------- BODY ------- */
 
-
 .logo {
     display: block;
     width: 200px;
@@ -173,6 +171,6 @@ li {
 }
 
 .txtHome {
-    
+
     text-align: center;
 }
