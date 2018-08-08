@@ -162,7 +162,7 @@ li {
 
 }
 
-/* ------- BODY ------- */
+/* ------- home ------- */
 
 .logo {
     display: block;
@@ -173,4 +173,75 @@ li {
 .txtHome {
 
     text-align: center;
+}
+
+
+/* ------- ABOUT ------- */
+
+.about {
+
+    padding: 0 20px;
+}
+
+.about h2 {
+
+    font-family: "didot";
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 20% 0px 0 0px;
+}
+
+.about .auteur {
+    margin: 5px 0 20px 20px;
+    font-size: 0.6rem;
+    opacity: 0.8;
+    text-align: left;
+    font-family: "gothamBold";
+}
+
+.about p {
+
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.competence {
+
+    display: flex;
+    padding: 0 20%;
+
+}
+
+.about .competence ul {
+
+    font-family: "gothamBold";
+    font-size: 0.6rem;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.about .competence ul li {
+
+    font-family: "gotham";
+    font-size: 0.4rem;
+    margin: 5px 0 5px 5px;
+
+
+
+}
+
+.about .competence ul li span {
+
+    font-family: "gotham";
+    font-size: 0.6rem;
+
+}
+
+.lowPoly{
+    
+    height: 260px;
+    display: block;
+    margin: 20px auto 0 auto;
 }
