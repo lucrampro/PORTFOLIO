@@ -249,8 +249,9 @@ li {
 /* ------- PROJECT ------- */
 
 /*projet1*/
-.p1{
-    
+
+.p1 {
+
     position: relative;
     height: 100vh;
 }
@@ -265,13 +266,13 @@ li {
     font-size: 330px;
     opacity: 0.1;
     text-align: center;
-    
+
 
 }
 
 
 .project1Img {
-    
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -296,17 +297,16 @@ li {
 
 /*project2*/
 
+.p2 {
 
-.p2{
-    
     position: relative;
     height: 100vh;
-    
+
 }
 
 
 .project2Img {
-    
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -329,3 +329,86 @@ li {
 
 
 }
+
+/* ----- POLKATULK ----- */
+
+.pscc {
+
+    height: 100vh;
+    position: relative;
+
+}
+
+.pscc img {
+
+    width: 100%;
+
+}
+
+
+.pscc h2 {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-25%);
+    text-align: center;
+    font-family: "gothamBold";
+    font-size: 0.8rem;
+
+}
+
+.pscc span {
+    text-align: center;
+    font-family: "didotBold";
+    font-size: 4.5rem;
+    color: #fefefe;
+
+}
+
+
+.pscc div {
+
+    border: solid 1px #343434;
+    display: flex;
+    height: 50px;
+    width: 80%;
+    margin: 20px auto;
+    transition: 0.5s
+}
+
+.pscc div ul {
+
+    font-size: 0.8rem;
+    font-family: "gothamBold";
+    text-align: center;
+    margin: auto;
+
+}
+
+.pscc div ul li {
+
+    font-size: 0.6rem;
+    font-family: "gotham";
+
+}
+
+
+.pscc p{
+    
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+
+/*IMG BLOCKCHAIN*/
+
+.blockchain{
+    
+    height: 100vh;
+}
+
+.blockchain img{
+    
+    width: 100%;
+}
+
