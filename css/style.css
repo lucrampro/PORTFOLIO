@@ -162,7 +162,7 @@ li {
 
 }
 
-/* ------- home ------- */
+/* ------- HOME ------- */
 
 .logo {
     display: block;
@@ -239,9 +239,93 @@ li {
 
 }
 
-.lowPoly{
-    
+.lowPoly {
+
     height: 260px;
     display: block;
     margin: 20px auto 0 auto;
+}
+
+/* ------- PROJECT ------- */
+
+/*projet1*/
+.p1{
+    
+    position: relative;
+    height: 100vh;
+}
+
+.project1 {
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "didotBold";
+    font-size: 330px;
+    opacity: 0.1;
+    text-align: center;
+    
+
+}
+
+
+.project1Img {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    opacity: 0.8;
+}
+
+.projectName1 {
+
+    font-family: "didotBold";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    opacity: 0.5;
+    text-decoration: none;
+
+
+}
+
+/*project2*/
+
+
+.p2{
+    
+    position: relative;
+    height: 100vh;
+    
+}
+
+
+.project2Img {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    opacity: 0.8;
+}
+
+
+.projectName2 {
+
+    font-family: "didotBold";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5rem;
+    opacity: 0.5;
+    text-decoration: none;
+
+
 }
