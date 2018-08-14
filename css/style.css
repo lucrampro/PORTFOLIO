@@ -403,12 +403,22 @@ li {
 /*IMG BLOCKCHAIN*/
 
 .blockchain{
-    
+    position: relative;
     height: 100vh;
 }
 
-.blockchain img{
+.blockchain .img1{
     
     width: 100%;
+}
+
+
+.blockchain .img2{
+    
+    width: 50%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%)
 }
 
