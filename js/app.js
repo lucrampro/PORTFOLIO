@@ -97,45 +97,61 @@ $('document').ready(function () {
 
 
 
-    
+
     //     ------ BOUTON BURGUR ------
 
-    
-    //     ------ MENU ------
-    
-    
-    $( ".btnBurgur" ).click(function() {
 
-        if( $(".menu").width() === 0  ){
-            
-            
-            TweenMax.to(".menu", 0.3, { width:"100%" });
-            
+    //     ------ MENU ------
+
+
+    $(".btnBurgur").click(function () {
+
+        if ($(".menu").width() === 0) {
+
+
+            TweenMax.to(".menu", 0.3, {
+                width: "100%",
+                onComplete: function () {
+
+                    TweenMax.to(".menu ul li", 1, {
+                        css: {
+                            opacity: "1"
+                        },
+                        delay: 0.5
+                    });
+
+                }
+            });
+
+
+
+        } else {
+
+            TweenMax.to(".menu ul li", 0.3, {
+                css: {
+                    opacity: "0",
+                    onComplete: function () {
+
+                        TweenMax.to(".menu", 0.3, {
+                            width: "0"
+                        });
+
+
+                    }
+                }
+            });
+
+
+
         }
-        
-        else{
-            
-            TweenMax.to(".menu", 0.3, { width:"0" });
-            
-            
-        }
-});
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    });
+
+
+    //     ------ MENU ------
+
+
+
+
+
 
 });
