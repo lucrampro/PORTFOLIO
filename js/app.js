@@ -48,6 +48,9 @@ $('document').ready(function () {
 
         return FadeTransition;
     };
+    Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
+        console.log( $('.btnBurgur').length );
+    });
     Barba.Pjax.start();
 
     //     ------ BARBA -----
@@ -122,10 +125,6 @@ $('document').ready(function () {
 
                 }
             });
-
-
-
-            alert(' Le clique sur le menu fonctionne');
 
 
         } else {
