@@ -125,6 +125,9 @@ $('document').ready(function () {
 
 
 
+            alert(' Le clique sur le menu fonctionne');
+
+
         } else {
 
             TweenMax.to(".menu ul li", 0.3, {
@@ -141,9 +144,11 @@ $('document').ready(function () {
                 }
             });
 
-
+            alert(' Le clique sur le menu fonctionne');
 
         }
+
+
     });
 
 
