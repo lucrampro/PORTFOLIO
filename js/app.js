@@ -48,8 +48,8 @@ $('document').ready(function () {
 
         return FadeTransition;
     };
-    Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
-        console.log( $('.btnBurgur').length );
+    Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, container) {
+        console.log($('.btnBurgur').length);
     });
     Barba.Pjax.start();
 
@@ -112,22 +112,59 @@ $('document').ready(function () {
         if ($(".menu").width() === 0) {
 
 
-            TweenMax.to(".menu", 0.3, {
+           TweenMax.to(".trai1", 0.1, { width:"25%" });
+           TweenMax.to(".trai2", 0.2, { width:"25%" });
+           TweenMax.to(".trai3", 0.3, { width:"25%" });
+           TweenMax.to(".trai4", 0.4, { width:"25%" });
+           TweenMax.to(".trai5", 0.5, { width:"20%", onComplete: function(){
+               
+               
+               TweenMax.to(".trai1", 0.8,{ width:0, delay:0.6 });
+               TweenMax.to(".trai2", 0.8,{ width:0, delay:0.6 });
+               TweenMax.to(".trai3", 0.8,{ width:0, delay:0.6 });
+               TweenMax.to(".trai4", 0.8,{ width:0, delay:0.6 });
+               TweenMax.to(".trai5", 0.8,{ width:0, delay:0.6 });
+                   
+                   
+                   
+                    TweenMax.to(".menu", 0.2, {
                 width: "100%",
                 onComplete: function () {
 
                     TweenMax.to(".lHome", 1, {
                         css: {
                             opacity: "1"
-                        }, delay:0.7
+                        },
+                        delay: 0.7
                     });
-                    
-                    TweenMax.to(".lAbout", 0.6, { css:{ opacity:"1"}, delay:0.8 });
-                    TweenMax.to(".lProject", 0.4, { css:{ opacity:"1"}, delay:0.9 });
-                    TweenMax.to(".lContact", 0.2, { css:{ opacity:"1"}, delay:1 });
+
+                    TweenMax.to(".lAbout", 0.6, {
+                        css: {
+                            opacity: "1"
+                        },
+                        delay: 0.8
+                    });
+                    TweenMax.to(".lProject", 0.4, {
+                        css: {
+                            opacity: "1"
+                        },
+                        delay: 0.9
+                    });
+                    TweenMax.to(".lContact", 0.2, {
+                        css: {
+                            opacity: "1"
+                        },
+                        delay: 1
+                    });
 
                 }
             });
+                   
+                   
+         
+               
+               
+           }});
 
 
         } else {
@@ -146,7 +183,7 @@ $('document').ready(function () {
                 }
             });
 
-            
+
 
         }
 

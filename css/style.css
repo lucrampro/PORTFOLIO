@@ -90,8 +90,8 @@ li {
     height: 100%;
     top: 0;
     left: 0%;
-    background: #343434;
-    opacity: 0.01;
+    background: #f8f7f7;
+    z-index: 999 ;
 
 }
 
@@ -103,8 +103,8 @@ li {
     height: 100%;
     top: 0;
     left: 20%;
-    background: #343434;
-    opacity: 0.01;
+    background: #f8f7f7;
+    z-index: 999 ;
 
 }
 
@@ -116,8 +116,8 @@ li {
     height: 100%;
     top: 0;
     left: 40%;
-    background: #343434;
-    opacity: 0.01;
+    background: #f8f7f7;
+    z-index: 999 ;
 
 }
 
@@ -129,8 +129,8 @@ li {
     height: 100%;
     top: 0;
     left: 60%;
-    background: #343434;
-    opacity: 0.01;
+    background: #f8f7f7;
+    z-index: 999 ;
 
 }
 
@@ -142,8 +142,8 @@ li {
     height: 100%;
     top: 0;
     left: 80%;
-    background: #343434;
-    opacity: 0.01;
+    background: #f8f7f7;
+    z-index: 999 ;
 
 }
 
@@ -197,7 +197,7 @@ li {
 
 
 .menu {
-    position: absolute;
+    position: fixed;
     width: 0%;
     overflow: hidden;
     transition: 1s;
