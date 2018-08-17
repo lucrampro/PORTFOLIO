@@ -153,11 +153,11 @@ li {
 
 .btnBurgur {
 
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 50px;
-    width: 50px;
+
+    top: 20px;
+    right: 20px;
+    height: 15px;
+    width: 20px;
     z-index: 999;
     position: fixed;
 
@@ -170,6 +170,7 @@ li {
     width: 15px;
     background: #343434;
     margin-bottom: 3px;
+    margin-right: 0%; 
 
 
 }
