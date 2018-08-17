@@ -116,12 +116,15 @@ $('document').ready(function () {
                 width: "100%",
                 onComplete: function () {
 
-                    TweenMax.to(".menu ul li", 1, {
+                    TweenMax.to(".lHome", 1, {
                         css: {
                             opacity: "1"
-                        },
-                        delay: 0.5
+                        }, delay:0.7
                     });
+                    
+                    TweenMax.to(".lAbout", 0.6, { css:{ opacity:"1"}, delay:0.8 });
+                    TweenMax.to(".lProject", 0.4, { css:{ opacity:"1"}, delay:0.9 });
+                    TweenMax.to(".lContact", 0.2, { css:{ opacity:"1"}, delay:1 });
 
                 }
             });
@@ -143,7 +146,7 @@ $('document').ready(function () {
                 }
             });
 
-            alert(' Le clique sur le menu fonctionne');
+            
 
         }
 

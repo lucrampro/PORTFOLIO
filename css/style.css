@@ -247,7 +247,7 @@ li {
 .lHome {
 
     top: 30%;
-    transform: translateY(-40%)
+    transform: translateY(-30%)
 }
 
 
@@ -297,6 +297,7 @@ li {
 .about {
 
     padding: 0 20px;
+    overflow: hidden;
 }
 
 .about h2 {
