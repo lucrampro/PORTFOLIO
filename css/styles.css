@@ -474,7 +474,7 @@ body .volet5 {
   html .Mhome .accueil img {
     position: absolute;
     width: 500px;
-    top: 45%;
+    top: 43%;
     right: -35%;
     -webkit-transform: translate(-50%, -50%) rotate(15deg);
             transform: translate(-50%, -50%) rotate(15deg);
@@ -514,7 +514,7 @@ body .volet5 {
     font-size: 1.3rem;
     width: 50%;
     display: block;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 20px;
   }
   html .Mhome .about p.citation {
@@ -541,7 +541,7 @@ body .volet5 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 50% 0 5%;
+    padding: 0 50% 0 0%;
   }
   html .Mhome .about .skill ul {
     font-family: "gothamBold";
@@ -783,6 +783,10 @@ body .volet5 {
   margin-top: 5px;
 }
 
+.projet .site video {
+  display: none;
+}
+
 .projet .site img {
   display: none;
 }
@@ -812,4 +816,111 @@ body .volet5 {
 .projet .site p a {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (min-width: 980px) {
+  .projet {
+    height: 100vh;
+    width: 100vw;
+    font-family: "gothamBook";
+    padding-top: 5%;
+    overflow-x: hidden;
+    padding-left: 3%;
+    position: relative;
+  }
+  .projet h1 {
+    font-family: 'gothamBold';
+    text-transform: inherit;
+    text-align: left;
+    font-size: 4rem;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+  .projet p {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 5px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 40%;
+  }
+  .projet .separate {
+    width: 40%;
+    height: 1px;
+    background: black;
+    margin-left: 30px;
+    opacity: 0.2;
+  }
+  .projet .poste {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    margin-left: 25px;
+  }
+  .projet .poste ul {
+    width: 20%;
+    text-align: left;
+    font-family: "gothamBold";
+    margin-left: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .projet .poste ul.year {
+    margin-left: 30px;
+  }
+  .projet .poste ul li {
+    list-style: none;
+    font-family: 'gothamBook';
+    text-transform: none;
+    margin-top: 5px;
+  }
+  .projet .site video {
+    display: inherit;
+    position: absolute;
+    top: 45%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    left: 75%;
+    height: 700px;
+    max-width: 450px;
+  }
+  .projet .site video.videoScenso {
+    height: 670px;
+  }
+  .projet .site img {
+    display: inherit;
+    position: absolute;
+    top: 48%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    left: 75%;
+    width: 650px;
+    height: 400px;
+  }
+  .projet .site p {
+    margin: 0;
+    margin-top: 0%;
+    border: black 1px solid;
+    width: 200px;
+    margin-left: 10%;
+    margin-top: 5%;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .projet .site p:hover {
+    background: black;
+  }
+  .projet .site p:hover a {
+    color: white;
+  }
+  .projet .site p a {
+    text-decoration: none;
+    color: black;
+  }
 }
