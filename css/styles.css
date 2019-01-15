@@ -145,25 +145,25 @@ body header .menu div {
     background: black;
     width: 100%;
     margin-bottom: 5px;
-    height: 1px;
+    height: 1px!important;
 }
 
 body header .menu div.burger1 {
     width: 40px;
     z-index: 99;
-    height: 2px;
+    
 }
 
 body header .menu div.burger2 {
     width: 20px;
     z-index: 99;
-    height: 2px;
+    
 }
 
 body header .menu div.burger3 {
     width: 30px;
     z-index: 99;
-    height: 2px;
+    
 }
 
 body header ul {
