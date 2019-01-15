@@ -151,16 +151,19 @@ body header .menu div {
 body header .menu div.burger1 {
     width: 40px;
     z-index: 99;
+    height: 2px;
 }
 
 body header .menu div.burger2 {
     width: 20px;
     z-index: 99;
+    height: 2px;
 }
 
 body header .menu div.burger3 {
     width: 30px;
     z-index: 99;
+    height: 2px;
 }
 
 body header ul {
