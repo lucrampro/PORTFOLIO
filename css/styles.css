@@ -412,11 +412,20 @@ body .volet5 {
     text-align: center;
     margin-top: 50px;
     font-size: 0.8rem;
+
+ 
 }
 
-.accueil p.name {
+.pdev{
+    
+    opacity: 0;
+  
+}
+
+.accueil .name {
     font-family: "LostinWild";
     display: none;
+   
 }
 
 .accueil p.scroll {
@@ -447,6 +456,8 @@ body .volet5 {
 
 .about p.citation {
     width: 95%;
+    transform: translateY(20%);
+    opacity: 0;
 }
 
 .about p.citation span {
@@ -464,6 +475,13 @@ body .volet5 {
     margin-left: 10px;
 }
 
+.about .ap{
+    
+    transform: translateY(20%);
+    opacity: 0;
+    
+}
+
 .about .skill {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -478,6 +496,8 @@ body .volet5 {
     margin: auto;
     margin-top: 0;
     text-align: center;
+    transform: translateY(20%);
+    opacity: 0;
 }
 
 .about .skill ul li {
@@ -485,6 +505,8 @@ body .volet5 {
     font-size: 0.5rem;
     list-style: none;
     margin-top: 0.5px;
+    transform: translateY(20%);
+    opacity: 0;
 }
 
 .about .skill ul li span {
@@ -529,8 +551,8 @@ body .volet5 {
         width: 500px;
         top: 43%;
         right: -35%;
-        -webkit-transform: translate(-50%, -50%) rotate(15deg);
-        transform: translate(-50%, -50%) rotate(15deg);
+        -webkit-transform: translate(-50%, -53%) rotate(15deg);
+        transform: translate(-50%, -53%) rotate(15deg);
     }
 
     html .Mhome .accueil img.lucien {
@@ -540,6 +562,7 @@ body .volet5 {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
         width: 650px;
+        opacity: 0;
     }
 
     html .Mhome .accueil p {
@@ -554,6 +577,7 @@ body .volet5 {
     html .Mhome .accueil p.name {
         font-family: "LostinWild";
         display: none;
+    
     }
 
     html .Mhome .accueil p.scroll {
@@ -664,11 +688,13 @@ body .volet5 {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: 1.3rem;
+    opacity: 0;
 }
 
 .page_contact p.disponible {
     top: 50%;
     font-size: 0.8rem;
+    opacity: 0;
 }
 
 .page_contact p.disponible::before {
@@ -689,15 +715,25 @@ body .volet5 {
 
 .page_contact a.github {
     left: 45%;
+    opacity: 0
 }
+
 
 .page_contact a.linkedin {
     left: 55%;
+    opacity: 0
 }
 
 .page_contact a img {
     width: 30px;
     opacity: 0.5;
+    transition: 1
+}
+
+.page_contact a img:hover {
+    width: 40px;
+    opacity: 1;
+    transition: 1
 }
 
 @media screen and (min-width: 980px) {
@@ -767,7 +803,7 @@ body .volet5 {
 }
 
 .pwork .Pprojet .cacheProjet img {
-    width: 300px;
+    width: 0px;
     opacity: 0.8;
 }
 
@@ -788,13 +824,14 @@ body .volet5 {
     left: 50%;
     font-size: 35rem;
     width: 600px;
-    opacity: 0.1;
+    opacity: 0;
     z-index: -1;
 }
 
 .pwork .Pprojet a {
     color: black;
     text-decoration: none;
+    opacity: 0;
 }
 
 .projet {
@@ -811,6 +848,9 @@ body .volet5 {
     font-size: 2rem;
     margin-bottom: 15px;
     margin-left: 20px;
+
+
+    
 }
 
 .projet p {
@@ -819,6 +859,7 @@ body .volet5 {
     line-height: 30px;
     margin-bottom: 20px;
     margin-left: 20px;
+    
 }
 
 .projet .separate {
