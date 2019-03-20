@@ -219,7 +219,7 @@ body .volet1 {
     height: 20vh;
     width: 0;
     background: #f8f8f8;
-    z-index: 99;
+    z-index: 98;
 }
 
 body .volet2 {
@@ -229,7 +229,7 @@ body .volet2 {
     height: 20vh;
     width: 0;
     background: #f8f8f8;
-    z-index: 99;
+    z-index: 98;
 }
 
 body .volet3 {
@@ -239,7 +239,7 @@ body .volet3 {
     height: 20vh;
     width: 0;
     background: #f8f8f8;
-    z-index: 99;
+    z-index: 98;
 }
 
 body .volet4 {
@@ -249,7 +249,7 @@ body .volet4 {
     height: 20vh;
     width: 0;
     background: #f8f8f8;
-    z-index: 99;
+    z-index: 98;
 }
 
 body .volet5 {
@@ -259,7 +259,7 @@ body .volet5 {
     height: 20vh;
     width: 0;
     background: #f8f8f8;
-    z-index: 99;
+    z-index: 98;
 }
 
 @media screen and (min-width: 980px) {
@@ -267,7 +267,7 @@ body .volet5 {
         height: 100vh;
         width: 0;
         position: fixed;
-        z-index: 98;
+        z-index: 99;
         overflow: hidden;
         background: #fefefe;
     }
@@ -347,7 +347,7 @@ body .volet5 {
         height: 20vh;
         width: 0;
         background: #f8f8f8;
-        z-index: 99;
+        z-index: 98;
     }
 
     body .volet2 {
@@ -357,7 +357,7 @@ body .volet5 {
         height: 20vh;
         width: 0;
         background: #f8f8f8;
-        z-index: 99;
+        z-index: 98;
     }
 
     body .volet3 {
@@ -367,7 +367,7 @@ body .volet5 {
         height: 20vh;
         width: 0;
         background: #f8f8f8;
-        z-index: 99;
+        z-index: 98;
     }
 
     body .volet4 {
@@ -377,7 +377,7 @@ body .volet5 {
         height: 20vh;
         width: 0;
         background: #f8f8f8;
-        z-index: 99;
+        z-index: 98;
     }
 
     body .volet5 {
@@ -387,7 +387,7 @@ body .volet5 {
         height: 20vh;
         width: 0;
         background: #f8f8f8;
-        z-index: 99;
+        z-index: 98;
     }
 }
 
@@ -848,6 +848,8 @@ body .volet5 {
     font-size: 2rem;
     margin-bottom: 15px;
     margin-left: 20px;
+   
+    opacity: 0;
 
 
     
@@ -859,6 +861,7 @@ body .volet5 {
     line-height: 30px;
     margin-bottom: 20px;
     margin-left: 20px;
+      opacity: 0;
     
 }
 
@@ -885,6 +888,7 @@ body .volet5 {
     margin-left: 5px;
     margin-top: 20px;
     text-transform: uppercase;
+    opacity: 0;
 }
 
 .projet .poste ul.year {
@@ -896,6 +900,7 @@ body .volet5 {
     font-family: 'gothamBook';
     text-transform: none;
     margin-top: 5px;
+    opacity: 0;
 }
 
 .projet .site video {
@@ -965,7 +970,7 @@ body .volet5 {
 
     .projet .separate {
         width: 40%;
-        height: 1px;
+        height: 1px;    
         background: black;
         margin-left: 30px;
         opacity: 0.2;

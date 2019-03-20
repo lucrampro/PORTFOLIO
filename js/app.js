@@ -1,7 +1,6 @@
 $('document').ready(function () {
 
 
-
     //MENU 
 
     $(".menu").click(function () {
@@ -124,6 +123,53 @@ $('document').ready(function () {
     });
 
     //
+
+    // PROJET
+
+    TweenMax.to('.projet h1', 0.5, {
+
+
+        opacity: 1
+
+
+
+    });
+
+
+    TweenMax.to('.projet p', 0.5, {
+
+
+        opacity: 1,
+        delay: 0.3
+
+
+    });
+
+
+    TweenMax.to('.projet ul', 0.5, {
+
+
+        opacity: 1,
+        delay: 0.7
+
+
+    });
+
+
+
+
+    TweenMax.to('.projet li', 0.5, {
+
+
+        opacity: 1,
+        delay: 0.9
+
+
+    });
+
+
+
+
 
     // home 
 
@@ -301,6 +347,7 @@ $(document).on('scroll', function () {
     var scroll = $(window).scrollTop();
 
 
+
     if (Math.round(scroll + windowHeight) >= Math.round(scensoTop + scensoHeight)) {
 
 
@@ -328,14 +375,17 @@ $(document).on('scroll', function () {
 
 
     }
+
 });
 
 // projet page 
 
-TweenMax.to('.projet p', 0.5,{
-    
+TweenMax.to('.projet p', 0.5, {
+
     color: "#345676"
 });
+
+
 
 
 //# sourceMappingURL=app.js.map
