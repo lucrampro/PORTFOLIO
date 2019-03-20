@@ -190,9 +190,9 @@ $('document').ready(function () {
 
 
     // 
-    var Top = $('.about').offset().top;
+    var Top = $('.about .skill').offset().top;
 
-    var Height = $('.about').height();
+    var Height = $('.about .skill').height();
 
     var scroll = $(window).scrollTop();
 
@@ -208,7 +208,7 @@ $('document').ready(function () {
 
 
 
-        if (Math.round(scroll + windowHeight) >= Math.round(Top + Height)) {
+        if (Math.round(scroll + windowHeight) >= Math.round(Top + Height  )) {
 
 
             TweenMax.to(".citation", 0.8, {
