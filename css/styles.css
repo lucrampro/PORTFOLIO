@@ -131,7 +131,7 @@ body header {
     background: #fefefe;
 }
 
-body header .menu {
+body .menu {
     position: fixed;
     top: 20px;
     right: 20px;
@@ -141,26 +141,26 @@ body header .menu {
     z-index: 99;
 }
 
-body header .menu div {
+body .menu div {
     background: black;
     width: 100%;
     margin-bottom: 5px;
     height: 1px!important;
 }
 
-body header .menu div.burger1 {
+body .menu div.burger1 {
     width: 40px;
     z-index: 99;
     
 }
 
-body header .menu div.burger2 {
+body .menu div.burger2 {
     width: 20px;
     z-index: 99;
     
 }
 
-body header .menu div.burger3 {
+body .menu div.burger3 {
     width: 30px;
     z-index: 99;
     
@@ -272,7 +272,7 @@ body .volet5 {
         background: #fefefe;
     }
 
-    body header .menu {
+    body .menu {
         position: fixed;
         top: 20px;
         right: 20px;
@@ -282,22 +282,22 @@ body .volet5 {
         z-index: 99;
     }
 
-    body header .menu div {
+    body .menu div {
         background: black;
         width: 100%;
         margin-bottom: 5px;
         height: 1px;
     }
 
-    body header .menu div.burger1 {
+    body .menu div.burger1 {
         width: 40px;
     }
 
-    body header .menu div.burger2 {
+    body .menu div.burger2 {
         width: 20px;
     }
 
-    body header .menu div.burger3 {
+    body .menu div.burger3 {
         width: 30px;
     }
 
