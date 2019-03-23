@@ -1058,3 +1058,39 @@ body .volet5 {
         color: black;
     }
 }
+
+@media screen and (min-width: 1281px){
+    
+    
+    html .Mhome .accueil img {
+        position: absolute;
+        width: 500px;
+        top: 43%;
+        right: -30%;
+        -webkit-transform: translate(-50%, -53%) rotate(15deg);
+        transform: translate(-50%, -53%) rotate(15deg);
+    }
+
+    html .Mhome .accueil img.lucien {
+        display: inherit;
+        left: -60%;
+        top: 20%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        width: 650px;
+        opacity: 0;
+    }
+    
+    
+    
+    html .Mhome .about img {
+        position: absolute;
+        width: 400px;
+        top: 55%;
+        right: -20%;
+        -webkit-transform: translate(-50%, -50%) rotate(15deg);
+        transform: translate(-50%, -50%) rotate(15deg);
+    }
+    
+    
+}
