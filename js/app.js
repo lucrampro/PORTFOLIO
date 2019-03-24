@@ -331,9 +331,9 @@ TweenMax.to('.ppolka a', 0.5, {
 
 
 
-var scensoHeight = $('.sscenso').height();
+var scensoHeight = $('.pTest').height();
 
-var scensoTop = $('.sscenso').offset().top;
+var scensoTop = $('.pTest').offset().top;
 
 var scroll = $(window).scrollTop();
 

@@ -828,6 +828,16 @@ body .volet5 {
     z-index: -1;
 }
 
+.pTest{
+    
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    opacity: 0;
+    height: 10px;
+    width: 10px;
+    
+}
 .pwork .Pprojet a {
     color: black;
     text-decoration: none;
