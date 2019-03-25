@@ -329,7 +329,7 @@ TweenMax.to('.ppolka a', 0.5, {
 });
 
 
-
+/////
 
 var scensoHeight = $('.pTest').height();
 
@@ -370,6 +370,55 @@ $(document).on('scroll', function () {
 
             opacity: 1,
             delay: 0.8
+
+        });
+
+
+    }
+
+});
+
+/////
+
+var clayHeight = $('.cTest').height();
+
+var clayTop = $('.cTest').offset().top;
+
+var scroll = $(window).scrollTop();
+
+var windowHeight = $(window).height();
+
+
+
+$(document).on('scroll', function () {
+
+
+    var scroll = $(window).scrollTop();
+
+
+
+    if (Math.round(scroll + windowHeight) >= Math.round(clayTop + clayHeight)) {
+
+
+
+        TweenMax.to('.clay .number', 0.5, {
+
+            opacity: 0.1
+
+        });
+
+        TweenMax.to('.clay img', 0.5, {
+
+            width: '400px',
+            delay: 0.3
+
+        });
+
+
+        TweenMax.to('.clay a', 0.5, {
+
+            opacity: 3,
+            delay: 1
 
         });
 
