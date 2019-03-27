@@ -1079,7 +1079,7 @@ body .volet5 {
     }
 }
 
-@media screen and (min-width: 1250px){
+@media screen and (min-width: 1281px){
     
     
     html .Mhome .accueil img {
@@ -1141,6 +1141,30 @@ body .volet5 {
     font-size: 0rem;
     
 }
- 
+    
+    
+    
+    .projet .site img {
+        display: inherit;
+        position: absolute;
+        top: 48%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 75%;
+        width: 750px;
+        height: 550px;
+    }
+
+    
+    .projet .site video {
+       
+        height: 890px;
+        max-width: 540px;
+    }
+
+    .projet .site video.videoScenso {
+        height: 450px;
+        
+    }
     
 }
