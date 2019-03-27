@@ -1079,16 +1079,22 @@ body .volet5 {
     }
 }
 
-@media screen and (min-width: 1281px){
+@media screen and (min-width: 1250px){
     
     
     html .Mhome .accueil img {
         position: absolute;
-        width: 500px;
+        width: 600px;
         top: 43%;
         right: -30%;
         -webkit-transform: translate(-50%, -53%) rotate(15deg);
         transform: translate(-50%, -53%) rotate(15deg);
+    }
+ 
+    html .Mhome .accueil .pdev {
+      
+        font-size: 1.3rem;
+        left: 24%;
     }
 
     html .Mhome .accueil img.lucien {
@@ -1097,7 +1103,7 @@ body .volet5 {
         top: 20%;
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
-        width: 650px;
+        width: 800px;
         opacity: 0;
     }
     
@@ -1105,12 +1111,36 @@ body .volet5 {
     
     html .Mhome .about img {
         position: absolute;
-        width: 400px;
+        width: 450px;
         top: 55%;
         right: -20%;
         -webkit-transform: translate(-50%, -50%) rotate(15deg);
         transform: translate(-50%, -50%) rotate(15deg);
     }
     
+    
+    html .Mhome .about p {
+        
+        font-size: 1.8rem;
+    }
+    
+    
+    .about  ul {
+
+    font-size: 1.2rem;
+   
+}
+
+.about  ul li {
+
+    font-size: 0.8rem;
+  
+}
+
+.about  ul li span {
+    font-size: 0rem;
+    
+}
+ 
     
 }
