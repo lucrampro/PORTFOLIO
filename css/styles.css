@@ -1027,7 +1027,7 @@ body .volet5 {
     .projet .site video {
         display: inherit;
         position: absolute;
-        top: 45%;
+        top: 35%;
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         left: 75%;
@@ -1160,10 +1160,16 @@ body .volet5 {
        
         height: 890px;
         max-width: 540px;
+        
     }
 
     .projet .site video.videoScenso {
         height: 450px;
+        
+    }
+    
+    .projet .site video.clay {
+        height: 500px;
         
     }
     
